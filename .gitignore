@@ -3,3 +3,9 @@ node_modules/
 .env
 docker-compose.yml
 nginx.conf
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
